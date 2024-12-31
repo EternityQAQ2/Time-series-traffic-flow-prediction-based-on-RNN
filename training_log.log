@@ -1,0 +1,26 @@
+2024-12-31 20:30:35,037 - INFO - Dataset loaded from ./saved_data/X_train.csv.
+2024-12-31 20:30:35,051 - INFO - Dataset loaded from ./saved_data/y_train.csv.
+2024-12-31 20:30:35,227 - INFO - Dataset loaded from ./saved_data/X_test.csv.
+2024-12-31 20:30:35,227 - INFO - Dataset loaded from ./saved_data/y_test.csv.
+2024-12-31 20:30:35,227 - INFO - Previewing training data:
+2024-12-31 20:30:35,227 - INFO -                      0  1  2  3  4  5  6  7  8  9  10  11  12  13  ...  244  245  246  247  248  249  250  251  252  253  254  255  256  257
+0  2009-01-01 00:00:00  0  0  0  0  0  0  0  0  0   0   0   0   0  ...    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+1  2009-01-01 00:00:00  0  0  0  0  0  0  0  0  0   0   0   0   0  ...    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+2  2009-01-01 00:00:00  0  0  0  0  0  0  0  0  0   0   0   0   0  ...    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+3  2024-06-30 23:00:00  0  0  0  0  0  0  0  0  0   0   0   0   0  ...    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+4  2024-06-30 23:00:00  0  0  0  0  0  0  0  0  0   0   0   0   0  ...    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+
+[5 rows x 258 columns]
+2024-12-31 20:30:35,456 - INFO - X_train columns after processing: Index(['1', '2', '3', '4', '5', '6', '7', '8', '9', '10',
+       ...
+       '252', '253', '254', '255', '256', '257', 'year', 'month', 'day',
+       'hour'],
+      dtype='object', length=261)
+2024-12-31 20:30:35,897 - INFO - X_train_scaled shape: (70087, 1, 261), X_test_scaled shape: (17522, 1, 261)
+2024-12-31 20:30:35,977 - INFO - Starting training...
+2024-12-31 20:36:37,098 - INFO - Training complete.
+2024-12-31 20:36:37,111 - INFO - Model saved to ./saved_model/gru_model.ckpt
+2024-12-31 20:36:37,907 - INFO - Final Validation MAE: 321.5475
+2024-12-31 20:36:37,907 - INFO - Best model updated.
+2024-12-31 20:36:37,907 - INFO - Final RMSE: 819.5688
+2024-12-31 20:36:38,212 - INFO - Plot saved to ./predictions_vs_true_values.png
